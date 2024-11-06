@@ -1,0 +1,84 @@
+/* Fondo general */
+body {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+/* Título */
+h1 {
+    font-size: 24px;
+    color: #ffffff;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Contenedores de secciones */
+.container {
+    margin-top: 20px;
+}
+
+/* Tarjetas de personajes */
+.estilosCards {
+    background-color: #2e2e2e;
+    border: 1px solid #444;
+    border-radius: 8px;
+    padding: 15px;
+    width: 200px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Circulos de colores para cada grupo */
+.circuloRojo, .circuloVerde, .circuloAzul {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.circuloRojo {
+    background-color: #ff6b6b;
+}
+
+.circuloVerde {
+    background-color: #1dd1a1;
+}
+
+.circuloAzul {
+    background-color: #54a0ff;
+}
+
+/* Contenedores de grupos (1-5, 6-11, 12-17) */
+.colorRojo, .colorVerde, .colorAzul {
+    background-color: #2e2e2e;
+    color: #ffffff;
+    border: 1px solid #444;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.colorRojo p, .colorVerde p, .colorAzul p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Ajustes de contenedor principal */
+#contenedorCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 10px;
+}
